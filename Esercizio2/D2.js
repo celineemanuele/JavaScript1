@@ -64,14 +64,28 @@ if(n1 === 8 || n2 === 8){
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let totalShoppingCart = 41;
+
+if ( totalShoppingCart > 50){
+  console.log(" Totale da pagare" + totalShoppingCart)
+} else {
+  console.log("Totale da pagare" + (totalShoppingCart + 10))
+}*/
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let totalShoppingCart2 = 41;
+let totalCart = totalShoppingCart2 * 0.8;
+let costoSpedizione;
+
+if(totalCart < 50){
+  totalCart += costoSpedizione;
+
+}
+console.log("Totale da pafare:" + totalCart)*/
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -140,11 +154,12 @@ else if (n % 2 == 1 ){
 */
 
 /*let val = 7;
-  if (val < 10) {
-      console.log("Il numero è minore di 10");
-    } else if (val > 5) {
+  if (val < 5) {
       console.log("Il nemero è maggiore di 5");
-    } else {
+    }
+    else if (val < 10) {
+      console.log("Il numero è minore di 10");
+    } else if  else {
       console.log("Uguale a 10 o maggiore");
     }*/
 
